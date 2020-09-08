@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale = 1.0, initial-scale = 1.0, maximum-scale = 5.0, user-scalable=yes, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Francis Herrera's thesis project, an informative website that promotes local music scene through motivation and guiding users on how to operate as independent artists. This is in partial fulfillment of AB Information Design">
+  <meta property="og:title" content="Soundfarer">
+  <meta property="og:type" content="website">
+ <!-- <meta property="og:image" content="http://admu.uxsociety.org/uxnchill/uxchill-image.png"> -->
+  <meta property="og:description" content="Francis Herrera's thesis project, an informative website that promotes local music scene through motivation and guiding users on how to operate as independent artists. This is in partial fulfillment of AB Information Design">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="flex">
+    <img src="./resources/logo/logo.svg" alt="logo">
+  </nav>
+
+  <section id="landing">
+    <video style="min-height: 90vh; min-width: 100%;" autoplay loop>
+      <source src="./resources/video/loop.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
+    <!-- <iframe style="min-height: 95vh; min-width: 100%;" src="https://www.youtube.com/embed/p2Q_usTuZGs?autoplay=1&controls=0&loop=1&playlist=p2Q_usTuZGs;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+  </section>
+
+  <section id="journey">
+    <img src="./resources/graphics/Website_Elements-14.png" alt="logo" id="j-1">
+
+    <div class="j-3">
+      <img src="./resources/graphics/Website_ Elements-02.png"
+      alt="logo">
+      <h3>The website contains a progress<br> tracker is meant to help artists that<br> strive to become more involved with<br> the local music scene.<br>
+      <br>
+      The tasks provided will help the<br> users to gain an understanding of<br> the local music scene, to make<br> connections, and to grow as artists.</h3>
+    </div>
+
+    <div class="j-4">
+      <img src="./resources/graphics/Website_Elements-05.png"
+      alt="logo">
+      <div><h3>You need to sign up so you can start<br> tracking your progress! </h3></div>
+    </div>
+
+    <button id="j-5" onclick="document.getElementById('j-5_id01').style.display='block'"></button>
+
+    <img src="./resources/graphics/Website_Elements-08.png"
+    alt="logo" id="j-6">
+
+    <div id="j-5_id01" class="modal">
+      <div onclick="document.getElementById('j-5_id01').style.display='none'" class="close">
+      </div>
+      <div class="j-5_modal-content">
+        <div class="container" style="width:102%;">
+          <img src="./resources/graphics/Sign-Up Overlay.png" id="j-5_modal-img" alt="graphics 9a">
+        </div>
+      </div>
+      <div class="j-5_modal-content2">
+         <input type="text" id="name" name="display-name" placeholder="">
+         <button id="j-5b"></button>
+      </div>
+  </div>
+
+  </section>
+
+  <section id="stories">
+    <div class="flex">
+      <div class="s-1">
+        <p>Many artists have their own journeys in the local music scene, and their stories are personal and unique to themselves. Many established artists had gone through their own trials and troubles before making it to where they are today. <br> <br>These are stories of various artists about their own experiences and insights over the course of their own journeys.</p>
+        <img src="./resources/graphics/Website Elements-07.png" alt="local-stories">
+      </div>
+
+      <div class="s-2">
+        <div style="margin: auto">
+          <img src="./resources/graphics/Website Elements-17.png" alt="featured-stories" style="margin-bottom: 12px">
+          <div class="stories-grid">
+            <img src="./resources/portraits/Artist Portraits-56.png" alt="portrait 56" onclick="document.getElementById('id01').style.display='block'">
+            <img src="./resources/portraits/Artist Portraits-57.png" alt="portrait 57" onclick="document.getElementById('id02').style.display='block'">
+            <img src="./resources/portraits/Artist Portraits-58.png" alt="portrait 58" onclick="document.getElementById('id03').style.display='block'">
+            <img src="./resources/portraits/Artist Portraits-59.png" alt="portrait 59" onclick="document.getElementById('id04').style.display='block'">
+            <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
+            <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
+            <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
+            <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
+          </div>
+        </div>
+
+          <div id="id01" class="modal">
+            <div onclick="document.getElementById('id01').style.display='none'" class="close"></div>
+            <div class="modal-content">
+              <div class="container">
+                <img src="./resources/graphics/STORIES_MOONWLK_Overlay.png" id="modal-img" alt="graphics 9a">
+                <div class="modal-links">
+                  <div class="mlink" onclick="document.getElementById('id02').style.display='block'; document.getElementById('id01').style.display='none'">
+                  </div>
+                  <div class="mlink" onclick="document.getElementById('id03').style.display='block'; document.getElementById('id01').style.display='none'">
+                  </div>
+                  <div class="mlink" onclick="document.getElementById('id04').style.display='block'; document.getElementById('id01').style.display='none'">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div id="id02" class="modal">
+          <div onclick="document.getElementById('id02').style.display='none'" class="close"></div>
+          <div class="modal-content" id="id02b">
+            <div class="container">
+              <img src="./resources/graphics/Artist Overlay-68.png" id="modal-img" alt="graphics 9a">
+            </div>
+          </div>
+      </div>
+
+      <div id="id03" class="modal">
+        <div onclick="document.getElementById('id03').style.display='none'" class="close"></div>
+        <div class="modal-content" id="id03b">
+          <div class="container">
+            <img src="./resources/graphics/STORIES MOONWLK Overlay (1).png" id="modal-img" alt="graphics 9a">
+          </div>
+        </div>
+    </div>
+
+    <div id="id04" class="modal">
+      <div onclick="document.getElementById('id04').style.display='none'" class="close"></div>
+      <div class="modal-content" id="id04b">
+        <div class="container">
+          <img src="./resources/graphics/STORIES MOONWLK Overlay (2).png" id="modal-img" alt="graphics 9a">
+        </div>
+      </div>
+  </div>
+
+      </div>
+    </div>
+
+    <div class="flex justifyEnd" id="s-3">
+      <img src="./resources/graphics/Website Elements-09.png" alt="graphics 9a">
+    </div>
+
+
+
+  </section>
+
+  <section id="about">
+    <div class="flex justifyEnd">
+      <img src="./resources/graphics/Website Elements-09 (1).png" alt="graphics 9b">
+    </div>
+
+    <div class="flex justifyCenter">
+      <div id="a-1" class="flex justifyCenter alignCenter flexColumn">
+        <img src="./resources/graphics/Website Elements-15.png" alt="about-title">
+        <p>The website aims to motivate its users through testimonials from various other local artists and their experiences and to provide the necessary information and resources through a progress tracker that will help them to understand how to operate as an independent artist in the local music scene.</p>
+      </div>
+    </div>
+
+    <div id="a-4">
+      <img src="./resources/graphics/Website Elements-04.png" alt="a-2" id="a-2">
+      <div class="flex justifyEnd">
+        <img src="./resources/graphics/Website Elements-03.png" alt="a-3" id="a-3">
+      </div>
+
+    </div>
+
+
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
